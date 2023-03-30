@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Old Trafford University</title> 
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Home page Style.css">
+    <link rel="stylesheet" href="style img slider.css">
+    <link rel="icon" type="image/x-icon" href="Old Trafford-logos.jpeg">
+    <script src="login.js"></script>
+    <script src="https://kit.fontawesome.com/ff55ef6564.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+</head>
+
+<body onload="displayLogin()">
+    <div class="navBar ">
+        <div class="navButtonsContainer ">
+            <a href="Home page.html "><img class="navLogo " src="Old Trafford-logos_white.png" alt=" "></a>
+        </div>
+        <div class="navButtonsContainer ">
+            <a href="Home page.html"><button class="navButtons "> HOME </button></a>
+            <a href="About us.html "><button class="navButtons "> ABOUT US </button></a>
+            <a href="Contact Us.html"><button class="navButtons ">CONTACT US</button></a>
+        </div>
+        <div class="navButtonsContainer " id="login"> </div>
+    </div>
+    <div class="slidercontain">
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <a href="Login.html" title="Login"><img src="img slider imgs/scroll login .png" alt=""></a>
+                </div>
+
+                <div class="slide">
+                    <a href="About us.html" title="About the university"><img src="scroll_About_us.png" alt=""></a>
+                </div>
+
+                <div class="slide">
+                    <a href="Contact us.html" title="Contact and Where to find us"><img src="img slider imgs/scroll contact us.png" alt=""></a>
+                </div>
+
+                <div class="slide">
+                    <a href="https://www.asu.edu.eg/"><img src="ain_shams_uni.png" alt=""></a>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn" onclick="changecounter(1)"></label>
+                <label for="radio2" class="manual-btn" onclick="changecounter(2)"></label>
+                <label for="radio3" class="manual-btn" onclick="changecounter(3)"></label>
+                <label for="radio4" class="manual-btn" onclick="changecounter(4)"></label>
+            </div>
+        </div>
+    </div>
+    <details>
+        <summary>Our Vision</summary><br> 
+        <p>Our university will have a transformative impact on society through continual innovation in education, research, creativity, and entrepreneurship. </p>
+    </details>
+</body>
+<footer>
+    <div class="social">
+        <a href="https://www.instagram.com/ainshamsuniversity/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/Ainshams_Univ" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/AinShams.University.EG" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.asu.edu.eg/" target="_blank" title="University Website"><i class="fas fa-globe"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="Home page.html">Home</a></li>
+        <li class="list-inline-item"><a href="Contact Us.html">Contact Us</a></li>
+        <li class="list-inline-item"><a href="About us.html">About</a></li>
+    </ul>
+    <p class="copyright">© 2021 Old Trafford University.</p>
+</footer>
+
+</html>

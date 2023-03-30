@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student page</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Student data style.css">
+    <link rel="icon" type="image/x-icon" href="Old Trafford-logos.jpeg">
+    <script src="https://kit.fontawesome.com/ff55ef6564.js" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+    <script src="students_information.js"></script>
+
+</head>
+
+<body onload="displayUserInfo()">
+    <div class="navBar">
+        <div class="navButtonsContainer">
+            <a href="Home page.html"><img class="navLogo" src="Old Trafford-logos_white.png" alt=""></a>
+        </div>
+        <div class="navButtonsContainer">
+            <a href="Home page.html"><button class="navButtons"> Home </button></a>
+            <a href="About us.html"><button class="navButtons"> About us </button></a>
+            <a href="Contact us.html"><button class="navButtons">Contact us</button></a>
+        </div>
+        <div class="navButtonsContainer" id="navID" onload="displayLogin()">
+
+            <a href="Home page.html"><button class="navButtons" onclick="logout()"> Log Out </button></a>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <div class="content">
+        <div class="studentinfobuttons">
+            <ul>
+                    <li><button class="active" onclick="displayGradesInfo()">Grades</button></li>
+                    <li><button onclick="displayFeesInfo()">Fees</button></li>
+                    <li><button onclick="PayForm()">Make a Payment</button></li>
+                    <li><button onclick="MakeRequest()">Make a Request</button></li> 
+                    <li><button onclick="clearRequestedInfo()">Clear</button></li>
+                    <li><a href="Report an issue.html"><button>Report an issue</button></a></li>
+            </ul>
+        </div>
+        <div id="studentinfo" class="studentinfo"></div>
+        <div id="requestedinfo">
+
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="social">
+        <a href="https://www.instagram.com/ainshamsuniversity/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/Ainshams_Univ" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/AinShams.University.EG" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.asu.edu.eg/" target="_blank" title="University Website"><i class="fas fa-globe"></i></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="Home page.html">Home</a></li>
+        <li class="list-inline-item"><a href="Contact Us.html">Contact Us</a></li>
+        <li class="list-inline-item"><a href="About us.html">About</a></li>
+    </ul>
+    <p class="copyright">© 2021 Old Trafford University.</p>
+</footer>
+
+</html>

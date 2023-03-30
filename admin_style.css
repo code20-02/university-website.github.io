@@ -1,0 +1,51 @@
+.adminbuttons {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding-top: 150px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.ctrlbutton {
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgba(201, 93, 50, 0.0);
+    border: none;
+    border-radius: 5px;
+    border-right: solid 8px rgba(31, 31, 34, 0.712);
+    border-left: solid 8px rgba(31, 31, 34, 0.712);
+    color: rgba(31, 31, 34, 0.712);
+    font-size: 15pt;
+    min-width: 30px;
+    transition-duration: 90ms;
+
+}
+
+.ctrlbutton:hover {
+    color: azure;
+    background-color: rgba(31, 31, 34, 1);
+    transform: translateY(-3px);
+    transition-duration: 90ms;
+}
+
+.admincontrolForm {
+    background-color: azure;
+}
+
+.useritem {
+    padding: 20px;
+}
+
+.useritem h3 {
+    color: red;
+    border-bottom: solid rebeccapurple 2px;
+}
+
+.usersgrid {
+    display: flex;
+    padding: 20px;
+}

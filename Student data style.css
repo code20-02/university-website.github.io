@@ -1,0 +1,59 @@
+.empty {
+    height: 100px;
+}
+
+.studentinfo {
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+.requestedinfo {
+    margin: 50px;
+}
+
+.content {
+    justify-content: space-evenly;
+}
+
+button {
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgba(201, 93, 50, 0.0);
+    border: none;
+    border-radius: 5px;
+    border-right: solid 8px rgba(31, 31, 34, 0.712);
+    border-left: solid 8px rgba(31, 31, 34, 0.712);
+    color: rgba(31, 31, 34, 0.712);
+    font-size: 15pt;
+    min-width: 30px;
+    transition-duration: 90ms;
+}
+
+button:hover {
+    color: azure;
+    background-color: rgba(31, 31, 34, 1);
+    transform: translateY(-3px);
+    transition-duration: 90ms;
+}
+
+.studentinfobuttons ul
+{
+    align-items: center;
+    margin-right: 20px;
+}
+
+.studentinfobuttons ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.studentinfobuttons ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
